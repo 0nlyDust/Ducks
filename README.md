@@ -54,14 +54,4 @@ pyinstaller --onefile --windowed juego_patitos.py
 3. El `.exe` se crea en la carpeta `dist/`.
 4. Copia también las carpetas `imagenes` y `sonidos` junto al `.exe` si no las empaquetas dentro.
 
----
-
-## 💾 Descarga y ejecución del .exe
-
-* Ejecuta directamente el `.exe`.
-* No necesitas instalar Python ni librerías.
-* Mantén las carpetas `imagenes` y `sonidos` junto al `.exe` si no están empaquetadas dentro.
-
----
-
 ¡Diviértete cuidando a tus patitos! 🌸🦆💖
