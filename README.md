@@ -1,21 +1,67 @@
 # 🌸 Estanque de Patitos 🌸
 
-Un juego relajante donde cuidas patitos en un estanque animado.  
-Añade patitos haciendo clic, despiértalos si están dormidos y recoge corazones para ganar puntos.  
+¡Bienvenido al **Estanque de Patitos**! 🦆💖
+Un juego relajante donde cuidas patitos en un estanque animado. Añade patitos, despiértalos si están dormidos y recoge corazones para ganar puntos.
 
-- Máximo 10 patitos simultáneos.  
-- Los patitos pueden dormirse o salir volando.  
-- Compra accesorios en la tienda para personalizar a tus patitos.  
-- Incluye música de fondo y efectos de sonido agradables.  
+---
 
-**Cómo jugar:**  
-- Clic sobre el estanque para añadir un pato.  
-- Clic sobre un pato dormido para despertarlo.  
-- Clic en corazones para recogerlos y aumentar tu puntuación.  
-- Abre la tienda para comprar accesorios y equiparlos a los patitos.
+## 🎮 Cómo jugar
 
-**Descarga y ejecución:**  
-- Ejecuta el `.exe` directamente; no necesitas instalar Python ni librerías.  
-- Asegúrate de mantener las carpetas `imagenes` y `sonidos` junto al `.exe` si no están empaquetadas dentro.
+* **Añadir patitos:** Clic sobre el estanque.
+* **Despertar patitos dormidos:** Clic sobre un pato dormido.
+* **Recoger corazones:** Clic en los corazones para sumar puntos.
+* **Tienda:** Compra accesorios y equipa a tus patitos.
 
-¡Diviértete cuidando a tus patitos! 🦆💖
+---
+
+## 🦆 Mecánicas del juego
+
+* Máximo **10 patitos** simultáneos.
+* Los patitos pueden **dormirse** o **salir volando**.
+* Personaliza tus patitos con accesorios de la **tienda**.
+* Música de fondo y efectos de sonido agradables.
+
+---
+
+## ⚙️ Ejecutar desde el código fuente
+
+### Requisitos
+
+* Python 3.11 o superior
+* Librerías: `pygame`, `Pillow`
+
+```bash
+pip install pygame pillow
+```
+
+### Generar el ejecutable (.exe) con PyInstaller
+
+1. Instala PyInstaller:
+
+```bash
+pip install pyinstaller
+```
+
+2. Desde la carpeta que contiene `juego_patitos.py`, ejecuta:
+
+```bash
+pyinstaller --onefile --windowed juego_patitos.py
+```
+
+* `--onefile` → genera un único `.exe`
+* `--windowed` → evita que se abra la consola junto al juego
+
+3. El `.exe` se crea en la carpeta `dist/`.
+4. Copia también las carpetas `imagenes` y `sonidos` junto al `.exe` si no las empaquetas dentro.
+
+---
+
+## 💾 Descarga y ejecución del .exe
+
+* Ejecuta directamente el `.exe`.
+* No necesitas instalar Python ni librerías.
+* Mantén las carpetas `imagenes` y `sonidos` junto al `.exe` si no están empaquetadas dentro.
+
+---
+
+¡Diviértete cuidando a tus patitos! 🌸🦆💖
